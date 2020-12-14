@@ -1,0 +1,3 @@
+data modify storage muld_datapacks uid set value 1
+scoreboard objectives add uid_id dummy
+tellraw @a [{"text": "Uid", "color": "red"}, {"text": " > Initialized!\n", "color": "white"}, {"text": " config", "bold": true, "color": "green", "clickEvent": {"action": "run_command", "value": "/function uid:config"}, "hoverEvent": {"action": "show_text", "value": [{"text": "Show the "}, {"text": "config", "color": "green", "bold": true}, {"text": " menu.", "color": "white"}]}}, {"text": "\n license", "bold": true, "color": "red", "clickEvent": {"action": "run_command", "value": "/function uid:license"}, "hoverEvent": {"action": "show_text", "value": [{"text": "Show the "}, {"text": "license", "color": "red", "bold": true}, {"text": ".", "color": "white"}]}}]
